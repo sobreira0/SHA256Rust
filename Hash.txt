@@ -1,0 +1,33 @@
+
+Hash: 003545761866367357f67df620ec983f3135c80857b2565328b757a0fadfc3fd
+Pre Imagem final: 18
+
+Hash: 00c3d6fe7f29a6198c5dfd68f33cf9a3cbffceadaeeac0d4565c292f0da31dda
+Pre Imagem final: 455
+
+Hash: 0013f34769ac8bbd3088e27d1eff00dd830fcd665e440e260ce1415c2f3b2f27
+Pre Imagem final: 832
+
+Hash: 0017f92d24243415061188c587fa8ff78884b36e888df916a28894a58483a6cd
+Pre Imagem final: 748
+
+Hash: 00f15fac97678b92850815467f5f730c9da838b900571b5b9ab144ab25523f04
+Pre Imagem final: 979
+
+Hash: 005ff8cac50b070ee055caedc4b03ebf43df46052efc8b6f843374b66246024a
+Pre Imagem final: 0124
+
+Hash: 00eb5f29f13cfef354a4e0446dc25816cf8a9c04646210d8b5762247b77c65ac
+Pre Imagem final: 2189
+
+Hash: 00fc4fbf41d0a3776efdeace3aa4191ae993623948a2cbe4538d4448a7d1cf8e
+Pre Imagem final: 123
+
+Hash: 000440dfcf078ab511b9a01246e8708f1daa5e8efdb098ec394c6bc5b24f4016
+Pre Imagem final: 3264
+
+Hash: 002c9961f944048d86dc589b1ead503c1e1361f6e7d1159fccfdc943bc9c3f12
+Pre Imagem final: 5333
+
+Hash: 00aa6dd881c7dbdfd24e9c0518960ac886811730fcb1b0b06cfb5ba4e15823b7
+Pre Imagem final: 6502
