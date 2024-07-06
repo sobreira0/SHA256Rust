@@ -14,3 +14,6 @@ Após clonar este repositório para a sua máquina, certifique-se de que tens o 
 cargo build
 cargo run <number of zeros>
 ```
+
+## Contribuindo
+Caso deseje contribuir, basta mandar que analisaremos e, caso for conveniente, daremos um merge na main branch!
