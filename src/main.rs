@@ -21,7 +21,7 @@ pub fn write_data_to_file(path: &str, data: &str) -> Result<(), Box<dyn std::err
 
 pub fn main_func(input: String, zeros: usize) -> (String, String, u128) {
     let mut buf: [u8; 512] = [0u8; 512];
-    let mut attempts: u128 = 1;
+    let mut attempts: u128 = 4294967295;
     let prefix: String = "0".repeat(zeros);
     let mut hasher = Sha256::new();
     let mut data: String = input.clone() + &attempts.to_string();
@@ -36,7 +36,13 @@ pub fn main_func(input: String, zeros: usize) -> (String, String, u128) {
         hash = hasher.clone().finalize();
         hex_hash = base16ct::lower::encode_str(&hash, &mut buf).unwrap();
     }
-
+    
+    let formatted_data = input.clone()+&attempts.to_string();
+    let k = hex_hash.to_string();
+    match write_data_to_file("./Hash.txt", &format!("\nHash: {k}\nPre Imagem final: {}\n", formatted_data)) {
+        Ok(_) => println!("Arquivo escrito com sucesso!"),
+        Err(_) => println!("Erro ao escrever o arquivo"),
+    }
     return (input, hex_hash.to_string(), attempts);
 }
 
@@ -47,10 +53,7 @@ pub fn rodar(entrada:String) {
     let time = end - start;
 
     let formatted_data = input+&attempts.to_string();
-    match write_data_to_file("./Hash.txt", &format!("\nHash: {hash}\nPre Imagem final: {}\n", formatted_data)) {
-        Ok(_) => println!("Arquivo escrito com sucesso!"),
-        Err(_) => println!("Erro ao escrever oa rquivo"),
-    }
+
     println!("Hash: {}", hash);
     println!("Numero de tentativas: {}", attempts);
     println!("Tempo de execucao: {}", time.as_secs());
