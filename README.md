@@ -20,4 +20,4 @@ cargo run <number of zeros>
 ```
 
 ## Contribuindo
-Caso deseje contribuir, basta mandar que analisaremos e, caso for conveniente, daremos um merge na main branch!
+Caso deseje contribuir, sinta-se livre para isso! Com certeza darei os devidos créditos.
