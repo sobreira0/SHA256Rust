@@ -1,5 +1,7 @@
 # SHA256Rust
 ![rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sobreira0/SHA256Rust)
+
 
 Projeto feito para achar SHA256 hashes com uma quantidade específica de zeros 
 
