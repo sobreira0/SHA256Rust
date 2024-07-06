@@ -8,7 +8,7 @@ Liderei a parte dos Grand Hashers com um Hash de 38 bits de '0' no início, por�
 ## Como editar o número de zeros: 
 
 ## Como compilar 
-Após clonar este repositório para a sua máquina, certifique-se de que tens o cargo[https://github.com/rust-lang/cargo] (gerenciador de pacotes do Rust) instalado, então compile desta maneira:
+Após clonar este repositório para a sua máquina, certifique-se de que tens o [cargo](https://github.com/rust-lang/cargo) (gerenciador de pacotes do Rust) instalado, então compile desta maneira:
 ```bash
 cargo build
 cargo run <number of zeros>```
