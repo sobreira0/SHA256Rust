@@ -22,7 +22,7 @@ pub fn write_data_to_file(path: &str, data: &str) -> Result<(), Box<dyn std::err
 
 pub fn find_hash(input: String, zeros: usize) -> (String, String, u128) {
     let mut buf: [u8; 512] = [0u8; 512];
-    let mut attempts: u128 = 4294967295;
+    let mut attempts: u128 = 0;
     let prefix: String = "0".repeat(zeros);
     let mut hasher = Sha256::new();
     let mut data: String = input.clone() + &attempts.to_string();
